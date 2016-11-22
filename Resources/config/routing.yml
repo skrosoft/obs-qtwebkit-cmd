@@ -1,0 +1,3 @@
+obs_qtwebkit_cmd_homepage:
+    path:     /
+    defaults: { _controller: ObsQtwebkitCmdBundle:Default:index }

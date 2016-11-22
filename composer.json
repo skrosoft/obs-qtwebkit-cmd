@@ -1,0 +1,16 @@
+{
+    "name": "skrosoft/obs-qtwebkit-cmd",
+    "description": "Generate instances of obs-qtwebkit plugin (Obs Project)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Guyard",
+            "email": "vguyard@onaxis.cl"
+        }
+    ],
+    "require": {
+        "php": ">= 5.5.0",
+        "skrosoft/obs-qtwebkit": "^v0.3"
+    }
+}

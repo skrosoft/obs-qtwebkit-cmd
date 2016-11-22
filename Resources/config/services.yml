@@ -1,0 +1,4 @@
+services:
+#    obs_qtwebkit_cmd.example:
+#        class: Onaxis\Bundle\ObsQtwebkitCmdBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
