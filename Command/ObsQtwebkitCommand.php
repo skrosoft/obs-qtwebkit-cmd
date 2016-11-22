@@ -60,8 +60,7 @@ class ObsQtwebkitCommand extends ContainerAwareCommand
 
         $fs = new Filesystem();
 
-        foreach(range($startat, $quantity) as $instance){
-            //$output->writeln("HOLAAAAATTT: " . $instance);
+        foreach(range($startat, (($startat+$quantity)-1)) as $instance){
 
             $instance_builddir = "{$builddir}/obs-qtwebkit-{$instance}";
 
