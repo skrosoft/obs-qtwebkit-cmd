@@ -1,0 +1,32 @@
+[
+    {
+        "name": "skrosoft/obs-qtwebkit",
+        "version": "v0.3",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/skrosoft/obs-qtwebkit.git",
+            "reference": "61b92d4240c8d84361c689d760b2aad25f1f4c2a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/skrosoft/obs-qtwebkit/zipball/61b92d4240c8d84361c689d760b2aad25f1f4c2a",
+            "reference": "61b92d4240c8d84361c689d760b2aad25f1f4c2a",
+            "shasum": ""
+        },
+        "time": "2016-11-22 15:47:30",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Vincent Guyard",
+                "email": "vguyard@onaxis.cl"
+            }
+        ],
+        "description": "Plantillas de instancias del plugin obs-qtwebkit"
+    }
+]

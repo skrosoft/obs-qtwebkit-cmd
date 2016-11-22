@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b21f9e60d732f9af0af6a151fe5ad56b",
+    "content-hash": "347097f278c4d515a38d180b341c0c90",
+    "packages": [
+        {
+            "name": "skrosoft/obs-qtwebkit",
+            "version": "v0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skrosoft/obs-qtwebkit.git",
+                "reference": "61b92d4240c8d84361c689d760b2aad25f1f4c2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skrosoft/obs-qtwebkit/zipball/61b92d4240c8d84361c689d760b2aad25f1f4c2a",
+                "reference": "61b92d4240c8d84361c689d760b2aad25f1f4c2a",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vincent Guyard",
+                    "email": "vguyard@onaxis.cl"
+                }
+            ],
+            "description": "Plantillas de instancias del plugin obs-qtwebkit",
+            "time": "2016-11-22 15:47:30"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">= 5.5.0"
+    },
+    "platform-dev": []
+}

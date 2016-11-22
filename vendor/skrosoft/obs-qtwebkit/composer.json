@@ -1,0 +1,13 @@
+{
+    "name": "skrosoft/obs-qtwebkit",
+    "description": "Plantillas de instancias del plugin obs-qtwebkit",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Guyard",
+            "email": "vguyard@onaxis.cl"
+        }
+    ],
+    "require": {}
+}
