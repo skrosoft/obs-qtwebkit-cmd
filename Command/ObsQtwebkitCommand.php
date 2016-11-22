@@ -33,6 +33,13 @@ class ObsQtwebkitCommand extends ContainerAwareCommand
                 10
             )
             ->addOption(
+                'startat',
+                null,
+                InputOption::VALUE_OPTIONAL,
+                '¿Desde que numero quiere empezar a generar instancias?',
+                1
+            )
+            ->addOption(
                 'builddir',
                 null,
                 InputOption::VALUE_OPTIONAL,
@@ -45,6 +52,7 @@ class ObsQtwebkitCommand extends ContainerAwareCommand
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $quantity = (int)$input->getOption('quantity');
+        $startat = (int)$input->getOption('startat');
         $builddir = $input->getOption('builddir');
 
         $root_dir = $this->getContainer()->getParameter('kernel.root_dir');
@@ -52,7 +60,7 @@ class ObsQtwebkitCommand extends ContainerAwareCommand
 
         $fs = new Filesystem();
 
-        foreach(range(1, $quantity) as $instance){
+        foreach(range($startat, $quantity) as $instance){
             //$output->writeln("HOLAAAAATTT: " . $instance);
 
             $instance_builddir = "{$builddir}/obs-qtwebkit-{$instance}";
